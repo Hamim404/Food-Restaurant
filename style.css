@@ -30,7 +30,6 @@
   opacity: 0.8;
   margin: 16px 0px;
   text-align: center;
-
 }
 #hero h1 {
   color: rgb(255, 255, 255);
@@ -62,6 +61,7 @@
   padding: 21px 32px 21px 32px;
   display: block;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 #card-section {
@@ -90,8 +90,8 @@
   margin: 44px 0 48px 0;
 }
 #card-section .card-box {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 #card-section .card-box .card {
   width: 424px;
@@ -122,7 +122,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(82, 195, 3, 0.15);
 }
 
 #card-section .card-box .card h3 {
@@ -141,4 +140,142 @@
   letter-spacing: 0%;
   opacity: 0.7;
   text-align: center;
+}
+
+#about {
+  height: 671px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#about .img-box {
+  width: 960px;
+  height: 671px;
+}
+
+#about .img-box img {
+  width: 100%;
+}
+
+#about .about-content {
+  width: 960px;
+  height: 671px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#about .about-content .content-box {
+  height: 398px;
+  width: 830px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#about .about-content .content-box h2 {
+  color: #101010;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#about .about-content .content-box h4 {
+  color: #101010;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  opacity: 0.6;
+  text-align: center;
+}
+#about .social {
+  text-align: center;
+
+}
+#about .social h3 {
+  color: #101010;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  opacity: 0.7;
+}
+
+#about .social .icons {
+  font-size: 36px;
+  margin-top:32px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+}
+
+#social {
+  text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ height: 671px;
+ background-color: antiquewhite;
+}
+
+#social .social-content {
+  height: 398px;
+  width: 830px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#social .social-content h2 {
+  color: #101010;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#social .media-area .border-style{
+    width: 1320px; 
+    border-top: 1px solid #10101033;
+    border-bottom: 1px solid #10101033;
+    padding: 30px 10px 30px 10px;
+}
+
+#social .media-area h3 {
+  color: #101010;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  opacity: 0.7;
+}
+#social h4 {
+  color: #101010;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  opacity: 0.6;
+  text-align: center;
+}
+#social .icons {
+  font-size: 36px;
+  margin-top:32px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
 }
